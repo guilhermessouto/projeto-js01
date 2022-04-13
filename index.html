@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec-1">
+        <header>
+            <div class="header-flex">
+                <div class="header-text">
+                    <h1>welcome to <br> <strong>XQDL</strong></h1>
+                    <p><strong>The next generation social community!</strong></p>
+                    <p>Connect with your friends with full profiles, reactions, groups, badges, quests, ranks, credits and <strong>much more to come!</strong></p>
+                </div>
+    
+                <form>
+                    <input type="text" id="firstName" placeholder="Your first name">
+                    <input type="text" id="lastName" placeholder="Your last name">
+                    <input type="email" id="email" placeholder="Your emaiil address">
+                    <input type="password" id="password" placeholder="Your password">
+                    <input type="password" id="passwordConfirm" placeholder="Confirm your password">
+                    <button type="button" onclick="toFeed()">Sign up</button>
+                </form>
+            </div>
+        </header><!--/header-->
+</section><!--/section1-->
+
+<section class="sec-2">
+    <div class="header">
+        <div class="header-flex01">
+            <div class="logo">
+                <img src="imagens/logo-g.png" id="">
+                <input type="text" id="">
+                <img src="imagens/icon-search.png" id="search">
+            </div>
+            <div class="icon">
+                <div id="friendsRequest">
+                    <div class="friendsRequest-icon" onclick="OpenFriendsRequest()">
+                    </div>
+    
+                    <div class="showFriendsRequest">
+                        <div class="listFriends">
+                            <p>Amigo</p>
+                        </div>
+                        <div class="listFriends">
+                            <p>Amigo</p>
+                        </div>
+                        <div class="listFriends">
+                            <p>Amigo</p>
+                        </div>
+                        <div class="listFriends">
+                            <p>Amigo</p>
+                        </div>
+                        <div class="listFriends">
+                            <p>Amigo</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="messages">
+                    <div class="messages-icon" onclick="OpenMessages()"></div>
+                    <div class="showMessages">
+                        <div class="listMessages">
+                            <p>Mensagem</p>
+                        </div>
+                        <div class="listMessages">
+                            <p>Mensagem</p>
+                        </div>
+                        <div class="listMessages">
+                            <p>Mensagem</p>
+                        </div>
+                        <div class="listMessages">
+                            <p>Mensagem</p>
+                        </div>
+                        <div class="listMessages">
+                            <p>Mensagem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <img src="imagens/icon-userprofile.png" id="">
+
+                <button id="arrowName"></button>
+
+                <div id="arrow">
+                    <div class="arrow-icon" onclick="OpenArrow()"></div>
+                    <div class="showArrow">
+                        <a href="#">Perfil</a>
+                        <a href="#">Configuraçoes</a>
+                        <a href="#">Sair</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/section2-->
+
+<script src="script.js"></script>
+</body>
+</html>
